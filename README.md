@@ -50,9 +50,7 @@ git commit -m "Comentario corto y conciso"
 git log
 ```
 
-
-
-
-```html
-<h1> Miren lo que programo </h1>
+* Para ver el detalle de un commit en especifico:
+```bash
+git show is-del-commit
 ```
