@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <section>
+        <h1>Formularios</h1>
+
+        <!--sirve para crear un formulario-->
+        <form>
+            <!--los inputs tiene tipos, por defecto son de tipo de text pero hay más-->
+            <p>
+                <input type="text" name="name" placeholder="Ingresa tu nombre" autocomplete="off" required />
+            </p>
+
+            <p>
+                <input type="email" name="email" placeholder="Ingresa tu correo" readonly
+                    value="javier.cruces.n@gmail.com" />
+            </p>
+
+            <p>
+                <input type="password" name="password" placeholder="contraseña" disabled />
+            </p>
+                <!--puede ser
+                    video/*
+                    audio/*
+                    pdf/*
+                    mp3/*
+                    image/*
+                -->
+            <p>
+                <input type="file" accept="image/*" name="images" />
+            </p>
+
+            <p>
+                <input type="number" name="phone_number" placeholder="Ingresa un número" />
+            </p>
+
+            <p>
+                <input type="date" name="date" />
+            </p>
+
+            <p>
+                <input type="time" name="time" />
+            </p>
+
+            <p>
+                <input type="datetime-local" name="date_time" />
+            </p>
+
+            <p>
+                <input type="checkbox" name="terms" /> Aceptas los terminos y condiciones
+            </p>
+
+            <p>
+            <h4>Escoje tu opción favorita</h4>
+            </p>
+
+            <p>
+                <input type="radio" name="option" /> Option 1
+            </p>
+
+            <p>
+                <input type="radio" name="option" /> Option 2
+            </p>
+
+            <p>
+                <input type="radio" name="option" checked /> Option 3
+            </p>
+
+            <p>
+                <input type="color" name="color" />
+            </p>
+
+            <p>
+                <button type="submit">Enviar datos</button>
+            </p>
+
+
+
+
+
+        </form>
+    </section>
+</body>
+
+</html>
