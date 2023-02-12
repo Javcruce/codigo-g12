@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Outfit", sans-serif;
+    background-color: hsl(217, 54%, 11%);
+}
+
+.main {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    background-color: hsl(216, 50%, 16%);
+    width: 470px;
+    text-align: center;
+    border-radius: 12px;
+    
+}
+
+img {
+    border-radius: 15px;
+    margin-top: 25px;
+}
+
+.parraf {
+    justify-content:left;
+    color: hsl(215, 32%, 27%);
+    font-size: 18px;
+    text-align: left;
+    margin-left: 37px;
+    margin-top: 25px;
+}
+
+
+h1 {
+    color: hsl(0, 0%, 100%);
+    font-size: 27px;
+    margin-bottom: 25px;
+    font-weight: 500;
+    
+}
+
+p {
+    font-size: 24px;
+    margin-right: 24px;
+    color: hsl(215, 51%, 70%);
+    font-weight: 300;  
+
+}
+
+.tabla1 {
+    margin-bottom: 5%;
+}
+
+.ether {
+    align-items: center;
+    justify-items: auto;
+    color: hsl(178, 100%, 50%);
+}
+
+.time {
+    text-align: right;
+    margin-top: 0;
+    color: hsl(215, 51%, 70%);
+}
+
+.clock {
+    width: 20px;
+}
+
+.tabla {
+    margin-bottom: 5%;
+    align-items: center;
+    justify-content: center;
+    border-top: 1px solid hsl(215, 32%, 27%);
+}
+
+h2 {
+    color: hsl(215, 51%, 70%);
+    font-size: 22px;
+    font-weight: 300;
+    
+}
+
+h3 {
+    color: hsl(0, 0%, 100%);
+    font-size: 22px;
+    font-weight: 300;
+}
+
+span {
+    color: hsl(0, 0%, 100%);
+    font-weight: 300;
+}
+
+.autor {
+    border: 1px solid hsl(0, 0%, 100%);
+    border-radius: 50%;
+}

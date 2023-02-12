@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+input {
+    width: 350px;
+    padding: 10px;
+}
+
+/* Los Id´s se usan para casos especificos
+donde no queremos reutilizar estilos
+id => #id
+*/
+#boton-enviar {
+    background-color: #68e06c;
+    border: none;
+    color: white;
+    padding: 8px;
+    border-radius: 6px;
+    cursor: pointer;
+    width: 250px;
+    font-size: 18px;
+}
+
+/* para acceder a el elemento por class asume
+.input-nombre {}
+*/
+
+.input-nombre {
+    border-radius: 12px;
+    border: 0.5px solid #ccc;
+}
+
+/* cuando colocamos el maouse sobre un elemento
+este tiene un propiedad hover */
+
+#boton-enviar:hover {
+    background-color: crimson;
+    border: 1px solid #000;
+}
+

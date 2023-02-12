@@ -5,18 +5,27 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Formulario Javier</title>
+    <link rel="stylesheet" href="./css/styles.css">
 </head>
+
+<style>
+    /* p {
+        border: solid 1px red;
+        padding: 10px;
+    } */
+
+</style>
 
 <body>
     <section>
-        <h1>Formularios</h1>
+        <h1 style="color: #EA9A14;">Formularios</h1>
 
         <!--sirve para crear un formulario-->
         <form>
             <!--los inputs tiene tipos, por defecto son de tipo de text pero hay más-->
             <p>
-                <input type="text" name="name" placeholder="Ingresa tu nombre" autocomplete="off" required />
+                <input type="text" class="input-nombre" name="name" placeholder="Ingresa tu nombre" autocomplete="off" required />
             </p>
 
             <p>
@@ -59,7 +68,7 @@
             </p>
 
             <p>
-            <h4>Escoje tu opción favorita</h4>
+            <h4 style="color: blue; font-size: 20px;">Escoje tu opción favorita</h4>
             </p>
 
             <p>
@@ -79,7 +88,7 @@
             </p>
 
             <p>
-                <button type="submit">Enviar datos</button>
+                <button id="boton-enviar" type="submit">Enviar datos</button>
             </p>
 
 
