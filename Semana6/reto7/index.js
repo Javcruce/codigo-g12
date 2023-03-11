@@ -28,8 +28,6 @@ form.onsubmit = function (event) {
 };
 
 
-
-
 function renderMovies() {
   if (movies.length === 0) return;
 
