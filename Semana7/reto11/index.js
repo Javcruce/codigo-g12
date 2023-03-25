@@ -7,23 +7,23 @@ const apiURL = "https://641523a45be9d76da4edd001.mockapi.io/tasks";
 // array vacio
 const tasks = [];
 
-form.onsubmit = async function(event) {
+form.onsubmit = async function (event) {
     //para evitar que la web se recargue
     event.preventDefault();
-    
+
     if (!input.value) return;
 
-const response =await fetch(apiURL,{
-    method: "POST",
-    headers: {
-        "content-type": "application/json"
-    },
-    body: JSON.stringify({
-    name:input.value,
-    status: 1,
-    })
+    const response = await fetch(apiURL, {
+        method: "POST",
+        headers: {
+            "content-type": "application/json"
+        },
+        body: JSON.stringify({
+            name: input.value,
+            status: 1,
+        })
 
-});
+    });
 
     const data = await response.json();
     console.log(data);
@@ -53,8 +53,17 @@ function renderTasks() {
 
     tasks.forEach((task) => {
         tasksContainer.innerHTML += `
-        <div class="card">
-            <h3>${task.input}
+        <div class="card m-3">
+            <div class="card-body">
+            <div>
+            <h3>${task.input}</h3>
+            </div>
+            <div>
+                <button class="btn btn-primary">Terminando</button>
+                <button class="btn btn-warning">Terminando</button>
+                <button class="btn btn-danger">Terminando</button>
+            </div>
+            </div>
             </div>
         `;
     })
